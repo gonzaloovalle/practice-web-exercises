@@ -1,0 +1,13 @@
+body{
+    background-color: lavender;
+}
+
+.fancy-header {
+    color: purple;
+    text-align: center;
+}
+
+h2 {
+    color: blue;
+    text-decoration: underline;
+}
