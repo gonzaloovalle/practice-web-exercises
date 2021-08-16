@@ -9,11 +9,29 @@
 </head>
 <body>
 
+<h1 id="title" class="codeup">Favorite Foods</h1>
+
+<p id="intro" class="codeup">Here, in no particular order, are some of my favorite foods!</p>
+
+<ul class="list" id="food-list">
+    <li class="food" id="pizza">Pizza</li>
+    <li class="food" id="sushi">Sushi</li>
+    <li class="food" id="tacos">Tacos</li>
+</ul>
+
+<div class="codeup" id="lorem">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti ea ipsum iusto officia omnis rem repellat sed tempora unde? Culpa dicta earum enim fugit minus mollitia quibusdam sit. Possimus, quia.
+</div>
+
 <script src="js/jquery-2.2.4.js"></script>
 <script>
-    $(document).ready(function(){
-        alert('The DOM had finished loading!')
-    })
+    $('li').css('font-size', '20px')
+
+    $('h1, p, li').css('color', 'blue')
+
+    var contents = $('h1').html()
+
+    alert(contents)
 </script>
 
 </body>
