@@ -11,12 +11,13 @@
 <body>
 
 <div id='map' style='width: 100%; height: 600px;'></div>
+<script src="js/keys.js"></script>
 <script>
-mapboxgl.accessToken = 'pk.eyJ1IjoiZ29uemFsb292YWxsZSIsImEiOiJja2gzbWFubm4wM2M0MnpxYnhjdGNxN251In0.4gqINTocCFD7vTZz3Sytgw';
+mapboxgl.accessToken = mapboxToken;
 const map = new mapboxgl.Map({
     container: 'map', // container ID
     style: 'mapbox://styles/mapbox/streets-v11', // style URL
-    center: [-98.4936282, 29], // starting position [lng, lat]
+    center: [-98.4936282, 29.50], // starting position [lng, lat]
     zoom: 10 // starting zoom
 });
 </script>
