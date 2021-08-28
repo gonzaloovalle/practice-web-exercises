@@ -56,6 +56,7 @@ let longestEmail = users.reduce((accum, curr) => {
     return (curr.email.length > accum.length) ? curr.email : accum;
 }, '');
 
+
 console.log(longestEmail);
 
 let namesString = users.reduce((accum, {name}) => {
